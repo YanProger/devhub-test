@@ -1,0 +1,28 @@
+input[type=range] {
+    -webkit-appearance: none;
+    width: 200px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+/* Полоса в Хроме */
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 2px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: black;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    height: 12px;
+    width: 12px;
+    background: gray;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border-radius: 25px;
+    margin-top: -5px;
+
+}

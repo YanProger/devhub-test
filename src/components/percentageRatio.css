@@ -1,0 +1,11 @@
+.percentageRatioContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 80px;
+}
+
+.percent {
+    margin-right: 25px;
+}
